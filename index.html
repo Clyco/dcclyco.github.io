@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Html5 Boot</title>
+    
+    <link rel="icon" href="images/favicon.ico" />
+
+  <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://dccdn.000webhostapp.com/css/style.css" rel="stylesheet">
+
+    <!-- Client JS plugins -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+
+  </head>
+    <body>			
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href=""><i class="fa fa-home"></i> HOME</a>
+            </li>
+            <li>
+              <a href="">item 1</a>
+            </li>
+            <li>
+              <a href="">item 2</a>
+            </li>
+            <li>
+              <a href="">item 3</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container">
+        <section id="titoli">
+          <h1>Main page heading &lt;h1&gt;</h1>
+          <h2>Section heading &lt;h2&gt;</h2>
+        </section>
+        <section id="paragrafi">
+          <h3>Paragraph title &lt;h3&gt;</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </section>
+        <section id="grid">
+          <h2>Grid system</h2>
+          <div class="row border-collapse">
+            <div class="col col-1-6 bordered">.col-1-6</div>
+            <div class="col col-1-6 bordered">.col-1-6</div>
+            <div class="col col-1-6 bordered">.col-1-6</div>
+            <div class="col col-1-6 bordered">.col-1-6</div>
+            <div class="col col-1-6 bordered">.col-1-6</div>
+            <div class="col col-1-6 bordered">.col-1-6</div>
+          </div>
+          <div class="row border-collapse">
+            <div class="col col-1-3 bordered">.col-1-3</div>
+            <div class="col col-1-3 bordered">.col-1-3</div>
+            <div class="col col-1-3 bordered">.col-1-3</div>
+          </div>
+          <div class="row border-collapse">
+            <div class="col col-1-2 bordered">.col-1-2</div>
+            <div class="col col-1-2 bordered">.col-1-2</div>
+          </div>
+          <div class="row border-collapse">
+            <div class="col col-2-3 bordered">.col-2-3</div>
+            <div class="col col-1-3 bordered">.col-1-3</div>
+          </div>
+          <div class="row border-collapse">
+            <div class="col col-1-4 bordered">.col-1-4</div>
+            <div class="col col-3-4 bordered">.col-3-4</div>
+          </div>
+          <div class="row"></div>
+        </section>
+        <section id="buttons">
+          <h2>Bottoni</h2>
+          <button>
+            Default
+          </button>
+          <button class="btn-ok">
+            .btn-ok
+          </button>
+          <button class="btn-ko">
+            .btn-ko
+          </button>
+          <button class="btn-az">
+            .btn-az
+          </button>
+          <button class="btn-block">
+            .btn-block
+          </button>
+        </section>
+        <section id="forms">
+          <h2>Forms</h2>
+          <form class="styled" method="post" action="http://f3.cuder.it/test.php">
+          <fieldset>
+            <legend>
+              <span id="fieldset-icon" class="fa fa-pencil"></span>
+              Gruppo di campi
+              
+            </legend>
+            
+            <div class="input-group">
+              <label for="nome">Nome</label>
+              <input id="nome" type="text" name="nome" placeholder="Nome">
+            </div>
+            <div class="input-group">
+              <label for="passwd">Password</label>
+              <input id="passwd" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="input-group">
+              <label>Cliente</label>
+              <div>
+                <div class="option-group">
+                  <input id="cliente_si" type="radio" name="cliente">
+                  <label for="cliente_si" class="option-label">Sì</label>
+                </div>
+                <div class="option-group">
+                  <input id="cliente_no" type="radio" name="cliente">
+                  <label for="cliente_no" class="option-label">No</label>
+                </div>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Interessi</label>
+              <div>
+                <div class="option-group">
+                  <input type="checkbox" id="interessi_cultura" name="interessi_cultura"> <label for="interessi_cultura" class="option-label">Cultura</label>
+                </div>
+                <div class="option-group">
+                  <input type="checkbox" id="interessi_attualita" name="interessi_attualita"> <label for="interessi_attualita" class="option-label">Attualità</label>
+                </div>
+                <div class="option-group">
+                  <input type="checkbox" id="interessi_sport" name="interessi_sport"> <label for="interessi_sport" class="option-label">Sport</label>
+                </div>
+                <div class="option-group">
+                  <input type="checkbox" id="interessi_finanza" name="interessi_finanza"> <label for="interessi_finanza" class="option-label">Finanza</label>
+                </div>
+              </div>
+            </div>
+            <div class="input-group">
+              <label for="citta">Provincia</label>
+              <select id="citta" name="citta">
+                <option>---</option>
+                <option value="udine">Udine</option>
+                <option value="gorizia">Gorizia</option>
+                <option value="trieste">Trieste</option>
+                <option value="pordenone">Pordenone</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label>Textarea</label>
+              <textarea name="messaggio" placeholder="Scrivi qui..."></textarea>
+            </div>
+          </fieldset>
+            <fieldset class="styled">
+            <button class="btn-block btn-az">
+              Invia
+            </button>
+          </fieldset>
+          
+          </form>
+        </section>
+
+      </div>
+      <footer>
+        <div id='viewport'>
+
+        </div>
+      </footer>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          getWindowSize();
+          $(window).resize(function() {
+            getWindowSize();
+          });
+          function getWindowSize() {
+            var width = $(window).width();
+            var height = $(window).height();
+            $('#viewport').html('Viewport: ' + width + 'x' + height);
+          }
+        });
+      </script>
+    </body>
+</html>
