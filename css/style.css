@@ -7,7 +7,7 @@ body{
   margin-top: 4rem;
 }
 body,div{
-    font: 300 1rem 'Lato', 'Helvetica', sans-serif;
+    font: 300 1rem 'Raleway', 'Helvetica', sans-serif;
 		color:rgb(51,51,51);
 }
 /* HEADER & FOOTER */
@@ -15,7 +15,10 @@ header{
     
 }
 nav{background-color: rgba(20,30,40,0.85);}
-footer{width: 100%;}
+footer{
+	width: 100%;
+	background-color: rgba(20,30,40,0.85);
+}
 .footer-responsive{
   position: fixed;
   bottom: 0;
@@ -104,11 +107,13 @@ nav ul li:hover, nav ul li:hover a{
 
 /* GRID */
 .row{
-  clear: both;
+  display: flex;
+	flex-flow: row
 }
 .col{
-  float:left;
-  box-sizing: border-box;  
+	display: flex;
+	flex-flow: column;	
+  box-sizing: border-box;
 }
 .col-1-1{width:100%;}
 .col-3-4{width:75%;}
@@ -117,13 +122,13 @@ nav ul li:hover, nav ul li:hover a{
 .col-1-3{width:33.333%;}
 .col-1-4{width:25%;}
 .col-1-6{width:16.667%;}
-.clear{clear: both;}
 
 /* TIPOGRAFIA */
 /* heading */
 h1{
 	font-size: 3rem;
 	font-weight: 100;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 h2{
 	font-size: 1.8rem;
@@ -443,8 +448,8 @@ img.logo{}
 
 }
 @media (max-width: 768px){
-  .row .col{
-      float: none;
+  .row{display: block;}
+	.col{
       display: inline-block;
       width: 100%;
   }
