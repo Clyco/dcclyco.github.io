@@ -338,9 +338,6 @@
                   I testi riempitivi, come il "Lorem ipsum", sono molto diffusi e risultano molto utili.
                   </p>
                   <p>
-                    Spesso, però, ci si ritrova ad avere un messaggio automatico del browser, come <b>Google Chrome</b>, che avvisa che la pagina che si sta visualizzando è in latino, e di conseguenza chiede se si intende avvalersi del servizio di traduzione automatica che viene messo a disposizione dal browser stesso.
-                  </p>
-                  <p>
                     La soluzione ideale, anche per poter vagliare pienamente la renderizzazione dei font prescelti, sarebbe quella di avere una serie di testi tipo "The quick brown fox jumps over the lazy dog", i cosiddetti <i>pangrammi</i>, ovvero frasi di senso compiuto che contengono tutte le lettere dell'alfabeto.
                   </p>
                 </div>
@@ -368,7 +365,147 @@
           </div>
           <div class="row"></div>
         </section>
-
+<table class="righe no-border">
+						<thead>
+						<tr class="bg-blue">
+							<th>Countries</th>
+							<th>Capitals</th>
+							<th>Population</th>
+							<th>Language</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>USA</td>
+							<td>Washington D.C.</td>
+							<td>309 million</td>
+							<td>English</td>
+						</tr>
+						<tr>
+							<td>Sweden</td>
+							<td>Stockholm</td>
+							<td>9 million</td>
+							<td>Swedish</td>
+						</tr>
+						<tr>
+							<td>Italy</td>
+							<td>Rome</td>
+							<td>60 million</td>
+							<td>Italian</td>
+						</tr>
+						<tr>
+							<td>Portougal</td>
+							<td>Lisbon</td>
+							<td>20 million</td>
+							<td>Portouguese</td>
+						</tr>
+						</tbody>
+					</table><table class="righe no-border">
+						<thead>
+						<tr class="bg-blue">
+							<th>Countries</th>
+							<th>Capitals</th>
+							<th>Population</th>
+							<th>Language</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>USA</td>
+							<td>Washington D.C.</td>
+							<td>309 million</td>
+							<td>English</td>
+						</tr>
+						<tr>
+							<td>Sweden</td>
+							<td>Stockholm</td>
+							<td>9 million</td>
+							<td>Swedish</td>
+						</tr>
+						<tr>
+							<td>Italy</td>
+							<td>Rome</td>
+							<td>60 million</td>
+							<td>Italian</td>
+						</tr>
+						<tr>
+							<td>Portougal</td>
+							<td>Lisbon</td>
+							<td>20 million</td>
+							<td>Portouguese</td>
+						</tr>
+						</tbody>
+					</table><table class="righe no-border">
+						<thead>
+						<tr class="bg-blue">
+							<th>Countries</th>
+							<th>Capitals</th>
+							<th>Population</th>
+							<th>Language</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>USA</td>
+							<td>Washington D.C.</td>
+							<td>309 million</td>
+							<td>English</td>
+						</tr>
+						<tr>
+							<td>Sweden</td>
+							<td>Stockholm</td>
+							<td>9 million</td>
+							<td>Swedish</td>
+						</tr>
+						<tr>
+							<td>Italy</td>
+							<td>Rome</td>
+							<td>60 million</td>
+							<td>Italian</td>
+						</tr>
+						<tr>
+							<td>Portougal</td>
+							<td>Lisbon</td>
+							<td>20 million</td>
+							<td>Portouguese</td>
+						</tr>
+						</tbody>
+					</table><table class="righe no-border">
+						<thead>
+						<tr class="bg-blue">
+							<th>Countries</th>
+							<th>Capitals</th>
+							<th>Population</th>
+							<th>Language</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>USA</td>
+							<td>Washington D.C.</td>
+							<td>309 million</td>
+							<td>English</td>
+						</tr>
+						<tr>
+							<td>Sweden</td>
+							<td>Stockholm</td>
+							<td>9 million</td>
+							<td>Swedish</td>
+						</tr>
+						<tr>
+							<td>Italy</td>
+							<td>Rome</td>
+							<td>60 million</td>
+							<td>Italian</td>
+						</tr>
+						<tr>
+							<td>Portougal</td>
+							<td>Lisbon</td>
+							<td>20 million</td>
+							<td>Portouguese</td>
+						</tr>
+						</tbody>
+					</table>
       </div>
       <footer class="footer-responsive">
         <div id="viewport">Viewport: 1087x3456</div>
@@ -386,6 +523,9 @@
 					$('.submenu').click(function(){
 						event.preventDefault();
 						$(this).children('ul').slideToggle('fast');
+					});
+					$('.submenu').mouseleave(function(){
+						$(this).children('ul').hide();
 					});
 					getWindowSize();
           //setPanelHeaderSize();
