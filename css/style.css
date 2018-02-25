@@ -113,7 +113,6 @@ nav ul li:hover, nav ul li:hover a{
 }
 .col{
 	display: flex;
-	flex: 1;
 	flex-flow: column;	
   box-sizing: border-box;
 }
