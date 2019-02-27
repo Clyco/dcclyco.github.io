@@ -298,7 +298,6 @@ textarea{
     display:inline-block;
     margin-right: 16px;
 }
-
 /* Hide the browser's default checkbox */
 .checkbox-label input, .radio-label input {
     position: absolute;
@@ -307,8 +306,6 @@ textarea{
     height: 0;
     width: 0;
 }
-
-
 /* Create a custom checkbox */
 .checkmark {
     position: absolute;
@@ -319,7 +316,6 @@ textarea{
     background: #fff;
     border: solid 1px #999;
 }
-
 .radio-label .checkmark{
     border-radius: 50%;
 }
