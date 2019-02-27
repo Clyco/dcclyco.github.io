@@ -286,7 +286,7 @@ textarea{
 .checkbox-label, .radio-label {
     display: block;
     position: relative;
-    padding: 3px 12px 0px 14px 24px;
+    padding: 3px 12px 0px 24px;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
